@@ -9,3 +9,82 @@ nav{
     justify-content: space-between;
     flex-direction: row;
 }
+
+.containerCentro{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    box-sizing: border-box;
+    
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #191919;
+    text-align: center;
+
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #959595;
+    text-align: center;
+}
+
+.containerBotones{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 1rem;
+    
+}
+
+.download{
+    background-color: #38b6ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4rem;
+    margin: 0 1rem 0 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 1rem 2rem;
+}
+.download:hover{
+    background-color: #07161f;
+
+}
+
+.whatItIs{
+    background-color: #8138ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4rem;
+    margin: 0 1rem 0 rem;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 1rem 2rem;
+}
+.whatItIs:hover{
+    background-color: #1e0d3a;
+}
+
+button:focus {
+    outline: 1px solid #ffffff;
+    outline-offset: -4px;
+}
+
+figure{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+    size: 50%;
+}
